@@ -8,6 +8,8 @@ Install python on your primary pc and then run the command python (thepathofthee
 Replace (thepathoftheesddownloadfile) with your actual path to the file that you downloaded for the ESD Image download
 Then install Heslo WinToUSB on a windows vm/machine(Free version can be used, it only supports installing the home edition but we can switch to pro edition later after windows boots.)
 Select Windows to go
+Select the esd image as your installation source
+Select the destination drive as the storage device you are using to install windows and make sure its not the one used for uefi
 Flash the ESD image to a storage device u didnt use for uefi using Heslo WinToUSB
 Boot, if you see No options or any error wait a few secs then press esc
 Select the Boot maintenance manager then click Boot devices/Boot Options/Similar
