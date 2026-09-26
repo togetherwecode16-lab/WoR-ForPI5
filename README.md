@@ -30,7 +30,10 @@ Click the storage device that you flashed the esd image to its most likely 3rd.
 You should see a folder named EFI at bottom open it you will see 2 folders Microsoft and Boot select Boot then select bootaa sometimes there could be something after bootaa like bootaa.efi
 Cick commit changes then reboot the PI.
 
-Go through windows oobe steps.
+Go through windows oobe steps. If You Are Using WINDOWS 11 for Sign In and internet ethernet does not work yet connect your phone using usb and enable USB Teethering on android and just hotspot on iOS
+
 (Only if you want to switch to pro) open settings in windows go to System > Activation > Change product key and enter VK7JG-NPHTM-C97JM-9MPGT-3V66T.
 Click Activate
 Wait for it to finish.
+
+----------- AS OF NOW ONLY USB AND HDMI DRIVERS WORK WE ARE WORKING ON DRIVERS FOR WIFI BLUETOOTH ETHERNET ETC.--------------------------------------------------------------
