@@ -21,7 +21,7 @@ Select the esd image as your installation source
 Select the destination drive as the storage device you are using to install windows and make sure its not the one used for uefi
 Flash the ESD image to a storage device u didnt use for uefi using Heslo WinToUSB
 
-NOTE:HesloUSB Is a example other apps like rufus, banela etcher etc. work fine too!
+NOTE: Rufus and other normal flashing apps do not work! If you are using macos or linux please use wimlib to flash the esd - you will first need to create 2 mb parition 1 then 2 in 1 manually extract and put the Microsoft Boot Files then use WimLib(you will need to compile yourself with ntfs 3g support also install ntfs 3g on ur system) then flash using wimlib while this is some cool work for devlopers and advanced users if you have not learned low level stuff yet the easiest and safest way is to use HesloUSB on a Windows VM
 
 Boot, if you see No options or any error wait a few secs then press esc
 
